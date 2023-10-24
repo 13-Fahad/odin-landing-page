@@ -2,11 +2,19 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: 0px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 ul {
@@ -19,4 +27,77 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+    gap: 150px;
+}
+
+.header,
+.sub-header {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.button {
+    color: #f9faf8;
+}
+
+.sub-header-text {
+    flex-basis: 350px;
+
+}
+
+a.button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h1,
+p {
+    margin: 4px;
+}
+
+.sub-header-text p,
+.header a,
+.card p {
+    font-size: 18px;
+    color: #acadb0;
+}
+
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937
+}
+
+.images-flex-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.card {
+    flex-basis: 200px;
+    text-align: center;
+}
+
+img {
+    margin: 0px;
 }
