@@ -76,6 +76,7 @@ p {
     color: #acadb0;
 }
 
+/* ---> Image Content <--- */
 
 .content-header {
     display: flex;
@@ -101,3 +102,33 @@ p {
 img {
     margin: 0px;
 }
+
+/* ----> Quote ≤--- */
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 120px;
+}
+
+.quote-item {
+    flex-basis: 1000px;
+}
+
+.quote-item,
+.quote-attribute {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-item .quote-attribute {
+    text-align: end;
+    font-weight: 550;
+}
+
+/* ---> Banner <--- */
+
