@@ -37,7 +37,8 @@ a {
 }
 
 .header,
-.sub-header {
+.sub-header,
+.footer {
     color: #F9FAF8;
     background-color: #1F2937;
 }
@@ -132,3 +133,43 @@ img {
 
 /* ---> Banner <--- */
 
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.blue-banner {
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px 120px;
+    gap: 100px;
+    align-items: center;
+}
+
+.banner-header {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.banner-subheader {
+    color: #f9faf8;
+}
+
+.banner-button {
+    border: solid 2px #f9faf8;
+    color: #F9FAF8;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+
+/* ---> Footer <--- */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
